@@ -6,13 +6,21 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 // import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { Link } from "react-router-dom";
+// import 'animate.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 
 
 const Banner = () => {
+  useEffect(()=>{
+    AOS.init({duration: 2000});
+  },[])
     return (
         <div className="h-screen">
             <div id="home" className="flex justify-center justify-items-center">
-                <div  className="pt-48 pr-24 text-left w-1/2">
+                <div  className="pt-48 pr-24 text-left w-1/2"  data-aos="fade-right">
                    <h2 className="font-bold text-2xl">I am FAHIMA</h2>
                    <h1 className="font-bold text-[#8854d0] text-7xl">Web Developer</h1>
                    <p className="pt-4">I break down complex user experinece problems to create integrity focussed solutions that connect billions of people</p>
@@ -27,7 +35,7 @@ const Banner = () => {
                  </div>
                    </div>
                 </div>  
-                <div>
+                <div  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                   <div className="bg-blue-400 rounded-badge shadow-2xl animate-pulse w-96 h-80 mt-36 ml-6 relative"></div>
                 <img className="w-68 absolute top-0" src= {myPic}/>
                 </div>
