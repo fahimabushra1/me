@@ -16,11 +16,7 @@ const Projects = () => {
     <h2 className="card-title">
     Gloria Jeans Coffee
     </h2>
-    <p>
-      <li>Login, Registration & Google Sign-Up</li>
-      <li>Search Option, Filter By Categories, and Sorting system</li>
-      <li>Developed a REST API for CRUD operations and stored all data in MongoDB.</li>
-      </p>
+    
       <div className="card-actions justify-center mt-4">
       <div className="badge badge-outline badge-primary"><Link to={'https://gloria-jeans-coffee-38a6a.web.app/'}>Live Site</Link></div>
       <div className="badge badge-outline badge-primary"><Link to={'https://github.com/fahimabushra1/gloria-jeans-coffee'}>Frontend</Link></div>
