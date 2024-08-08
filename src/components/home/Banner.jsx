@@ -17,7 +17,7 @@ const Banner = () => {
   },[])
     return (
         <div className="h-screen">
-            <div id="home" className="flex justify-center justify-items-center">
+            <div id="home" className="lg:flex justify-center justify-items-center sm:flex-none md:flex-none">
                 <div  className="pt-48 pr-24 text-left w-1/2"  data-aos="fade-right">
                    <h2 className="font-bold text-2xl">I am FAHIMA</h2>
                    <h1 className="font-bold text-[#8854d0] text-7xl">Web Developer</h1>

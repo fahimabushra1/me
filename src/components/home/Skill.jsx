@@ -5,6 +5,7 @@ import bootstrap from '../../assets/images/bootstrap-logo.png'
 import js from '../../assets/images/js-logo.jpg'
 import react from '../../assets/images/react-logo-png.jpg'
 import mongodb from '../../assets/images/mongodb.jpg'
+import github from '../../assets/images/GitHub-Symbol.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -13,12 +14,12 @@ import { useEffect } from "react";
 const Skill = () => {
 
     useEffect(()=>{
-        AOS.init({duration: 2000});
+        AOS.init();
       },[])
     return (
         <div id="skill">
             <h2 className="font-bold text-4xl text-center py-8">Skills</h2>
-            <div className="flex justify-evenly items-center gap-4 p-16 mb-96" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div className="grid grid-cols-2 gap-4 p-16 mb-96" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <div className='flex justify-center items-center rounded-3xl shadow-2xl py-4 px-8 gap-2 font-bold'>
           <img src={html} alt="html logo" className='w-12 h-12'/>
           <p>HTML</p>
@@ -47,7 +48,11 @@ const Skill = () => {
           <img src={mongodb} alt="mongodb logo" className='w-12 h-12'/>
           <p>MongoDB</p>
           </div>
-            </div>
+          <div className='flex justify-center items-center  rounded-3xl shadow-2xl py-4 px-8 gap-2 font-bold'>
+          <img src={github} alt="github logo" className='w-12 h-12'/>
+          <p>Github</p>
+          </div>
+          </div>
             </div>
     );
 };
