@@ -13,7 +13,7 @@ const About = () => {
     AOS.init({duration: 2000});
   },[])
     return (
-        <div id="about" className="font-bold p-4 lg:pt-0 sm:pt-32 m-4 lg:mt-0 sm:mt-12">
+        <div id="about" className="font-bold p-4 lg:pt-0 sm:pt-32 m-4 lg:mt-0 sm:mt-44">
             <div className="text-wrap">
             <h2 className="font-bold text-4xl text-center mb-4">About Me</h2>
         <div data-aos="fade-left">
