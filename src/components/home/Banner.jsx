@@ -17,8 +17,8 @@ const Banner = () => {
   },[])
     return (
         <div className="h-screen">
-            <div id="home" className="lg:flex justify-center justify-items-center sm:flex-none md:flex-none">
-                <div  className="pt-48 pr-24 text-left w-1/2"  data-aos="fade-right">
+            <div id="home" className="lg:flex justify-center justify-items-center sm:flex-none">
+                <div  className="lg:pt-48 sm:pt-8 lg:ml-0 sm:ml-8 lg:pr-24 text-left w-1/2"  data-aos="fade-right">
                    <h2 className="font-bold text-2xl">I am FAHIMA</h2>
                    <h1 className="font-bold text-[#8854d0] text-7xl">Web Developer</h1>
                    <p className="pt-4">I break down complex user experinece problems to create integrity focussed solutions that connect billions of people</p>
@@ -33,7 +33,7 @@ const Banner = () => {
                  </div>
                    </div>
                 </div>  
-                <div className="pt-20">
+                <div className="lg:pt-20 sm:pt-8">
                 <div className="relative overflow-hidden w-96 h-96 bg-gradient-to-r from-violet-500 to-fuchsia-700 rounded-full before:content-[''] before:absolute before:-inset-y-2.5 before:inset-x-36 before:w-28 motion-reduce:before:animate-spin hover:before:w-full hover:before:inset-0 hover:before:animate-none before:bg-gradient-to-r from-violet-500 to-fuchsia-500  before:animate-spin
                  after:content-[''] after:absolute after:inset-1.5 after:bg-[#A3CB38] after:rounded-full">
                   <div className="absolute overflow-hidden inset-7 border-4 border-solid border-[#1B1464] rounded-full z-10"><img className="absolute top-0 w-full h-full object-scale-down" src={myPic} alt="myPic" />
