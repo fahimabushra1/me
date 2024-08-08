@@ -33,10 +33,10 @@ const Banner = () => {
                  </div>
                    </div>
                 </div>  
-                <div  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                <div className="relative overflow-hidden w-96 h-96 bg-black rounded-full before:content-[''] before:absolute before:-inset-y-2.5 before:inset-x-36 before:w-28 motion-reduce:before:animate-spin hover:before:w-full hover:before:inset-0 hover:before:animate-none before:bg-gradient-to-r from-violet-500 to-fuchsia-500  before:animate-spin
-                 after:content-[''] after:absolute after:inset-1.5 after:bg-[#99b0b4] after:rounded-full">
-                  <div className="absolute overflow-hidden inset-7 border-4 border-solid border-[#070a1c] rounded-full z-10"><img className="absolute top-0 w-full h-full object-scale-down" src={myPic} alt="myPic" />
+                <div className="pt-20">
+                <div className="relative overflow-hidden w-96 h-96 bg-gradient-to-r from-violet-500 to-fuchsia-700 rounded-full before:content-[''] before:absolute before:-inset-y-2.5 before:inset-x-36 before:w-28 motion-reduce:before:animate-spin hover:before:w-full hover:before:inset-0 hover:before:animate-none before:bg-gradient-to-r from-violet-500 to-fuchsia-500  before:animate-spin
+                 after:content-[''] after:absolute after:inset-1.5 after:bg-[#A3CB38] after:rounded-full">
+                  <div className="absolute overflow-hidden inset-7 border-4 border-solid border-[#1B1464] rounded-full z-10"><img className="absolute top-0 w-full h-full object-scale-down" src={myPic} alt="myPic" />
                   </div>
                 </div>
                 </div>
