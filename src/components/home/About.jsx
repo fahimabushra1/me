@@ -13,7 +13,7 @@ const About = () => {
     AOS.init({duration: 2000});
   },[])
     return (
-        <div id="about" className="font-bold lg:px-4 sm:px-4 lg:pt-0 sm:pt-4 lg:mx-4 sm:mx-2 lg:mt-0 sm:mt-2">
+        <div id="about" className="font-bold lg:px-4 sm:px-4 lg:pt-0 sm:pt-4 lg:mx-4 sm:mx-2 lg:mt-12 sm:mt-2">
             <div className="text-wrap">
             <h2 className="font-bold text-4xl text-center lg:mb-4 sm:mb-2">About Me</h2>
         <div data-aos="fade-left">
@@ -24,7 +24,7 @@ const About = () => {
           <p><FontAwesomeIcon icon={faRocket} className='text-red-600' /> I transform design concepts into responsive and interactive web pages or optimizing performance for a smoother user journey.My goal is to deliver high-quality,user-friendly products that meet the needs and expectation of users.</p> 
         </div>
         </div>
-        <div className="fixed top-96 right-4"><Link to={'#home'} className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faCircleChevronUp} className="text-black"/></Link></div>
+        <div className="fixed top-96 z-10 right-4"><Link to={'#home'} className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faCircleChevronUp} className="text-black"/></Link></div>
         </div>
     );
 };

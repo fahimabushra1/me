@@ -3,7 +3,7 @@ const Footer = () => {
     return (
             <footer className="footer footer-center p-10 bg-blue-400 text-primary-content">
   <aside>
-   <ul className="flex justify-items-center m-4 font-bold text-xl">
+   <ul className="lg:grid lg:grid-cols-6 sm:grid sm:grid-cols-1 items-center font-bold text-xl">
     <li className="mr-4">Home</li>
     <li className="mr-4">About</li>
     <li className="mr-4">Skill</li>
