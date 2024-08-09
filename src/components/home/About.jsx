@@ -13,9 +13,9 @@ const About = () => {
     AOS.init({duration: 2000});
   },[])
     return (
-        <div id="about" className="font-bold p-4 lg:pt-0 sm:pt-32 m-4 lg:mt-0 sm:mt-44">
+        <div id="about" className="font-bold lg:px-4 sm:px-4 lg:pt-0 sm:pt-2 lg:mx-4 sm:mx-0 lg:mt-0 sm:mt-2">
             <div className="text-wrap">
-            <h2 className="font-bold text-4xl text-center mb-4">About Me</h2>
+            <h2 className="font-bold text-4xl text-center lg:mb-4 sm:mb-2">About Me</h2>
         <div data-aos="fade-left">
         <p className="text-left"><FontAwesomeIcon icon={faHand} className='text-orange-700' /> I'm FAHIMA SAMSUNNAHAR BUSHRA, a  Humble, enthusiast,active web developer with technical expertise in web application development.I create responsive and interactive websites.I specialize in React.js, leveraging the power of Tailwind CSS and Material UI to bring design to life.</p>
            <br/>

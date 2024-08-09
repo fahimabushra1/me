@@ -24,17 +24,15 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-bold">
-          <li><Link to="/">Home</Link></li>
+                  <li><Link to="/">Home</Link></li>
                   <li><Link to="#about">About</Link></li>
                   <li><Link to="#skill">Skill</Link></li>
                   <li><Link to="#projects">Projects</Link></li>
                   <li><Link to="#education">Education</Link></li>
                   <li><Link to="#contact">Contact</Link></li>
+                  <li><Link target={"_blank"}  download to={"/resume of Fahima.pdf"} className="btn bg-[#8854d0] text-white">Resume</Link></li>
                   </ul>
                   </div>
-                    <div className="navbar-end">
-                    <Link target={"_blank"}  download to={"/resume of Fahima.pdf"} className="btn bg-[#8854d0] text-white">Resume</Link>
-                    </div>
       </div>
     );
 };

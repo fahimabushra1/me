@@ -16,9 +16,9 @@ const Banner = () => {
     AOS.init({duration: 2000});
   },[])
     return (
-        <div className="h-screen">
+        <div>
             <div id="home" className="lg:flex justify-center justify-items-center sm:flex-none">
-                <div  className="lg:pt-48 sm:pt-8 lg:mx-0 sm:mx-auto lg:pr-24 text-left w-1/2"  data-aos="fade-right">
+                <div  className="lg:pt-48 sm:pt-12 lg:pr-24 sm:pr-12 lg:text-left sm:text-center lg:w-1/2 sm:w-full"  data-aos="fade-right">
                    <h2 className="font-bold text-2xl">I am FAHIMA</h2>
                    <h1 className="font-bold text-[#8854d0] text-7xl">Web Developer</h1>
                    <p className="pt-4">I break down complex user experinece problems to create integrity focussed solutions that connect billions of people</p>

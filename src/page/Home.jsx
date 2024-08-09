@@ -8,7 +8,7 @@ import Skill from "../components/home/Skill";
 
 const Home = () => {
     return (
-        <div className="lg:*:max-w-6xl sm:*:max-w-3xl">
+        <div>
           <Banner/> 
           <About/>
           <Skill/>
