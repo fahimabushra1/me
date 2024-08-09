@@ -8,13 +8,13 @@ import Skill from "../components/home/Skill";
 
 const Home = () => {
     return (
-        <div className="lg:*:w-full sm:*:w-full">
+        <div className="lg:*:max-w-6xl sm:*:max-w-3xl">
           <Banner/> 
           <About/>
           <Skill/>
           <Projects/>
           <Education/>
-          <Contact/> 
+          <Contact/>
         </div>
     );
 };
