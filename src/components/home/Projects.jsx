@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div id="projects" className='-mt-96'>
           <h2 className="font-bold text-4xl text-center">My Projects</h2>
-        <div className='flex justify-evenly items-center pt-24'>
+        <div className='lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-1 items-center pt-24'>
         <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
     <img

@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div id="contact"className="p-8 mt-4 rounded-[50px]">
            <h2 className="font-bold text-4xl text-center mb-12">Contact</h2>
-           <div className="flex justify-center gap-24 items-center">
+           <div className="lg:grid lg:grid-cols-2 sm:grid sm:grid-cols-1 gap-24 items-center">
             <div className='-mt-72'>
             <h3 className="font-bold text-2xl text-left mb-4">Drop Me a Message</h3>
                 <p>If you have a project in mind or a question or just want to say hello, I'd love to hear from you. Drop me a message, and let's start a conversation.</p>
