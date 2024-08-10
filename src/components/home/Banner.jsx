@@ -21,7 +21,7 @@ const Banner = () => {
                 <div  className="lg:pt-48 sm:pt-12 lg:pr-24 sm:pr-12 lg:text-left sm:text-justify lg:w-1/2 sm:w-full"  data-aos="fade-right">
                    <h2 className="font-bold text-2xl">I am FAHIMA</h2>
                    <h1 className="font-bold text-[#8854d0] text-7xl">Web Developer</h1>
-                   <p className="pt-4">I break down complex user experinece problems to create integrity focussed solutions that connect billions of people</p>
+                   <p className="pt-4">I break down complex user experinece problems<br/> to create integrity focussed solutions<br/> that connect billions of people</p>
                    <div>
                    <button className="mt-8 mb-2"><a target="_blank" download href="/resume of Fahima.pdf" className="bg-[#8854d0] rounded-lg p-4 text-white mt-4 shadow-2xl">Download Resume</a></button>
                  <div className="flex justify-start gap-6 mt-4 pl-2">

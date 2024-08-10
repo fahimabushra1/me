@@ -6,7 +6,7 @@ const Projects = () => {
         <div id="projects">
           <h2 className="font-bold text-4xl text-center">My Projects</h2>
         <div className='lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-1 gap-4 pt-24 lg:pl-12 sm:pl-8'>
-        <div className="card w-96 shadow-2xl lg:bg-[#a3cb38] sm:bg-base-300 mb-6" data-aos="fade-up">
+        <div className="card lg:w-96 sm:w-80 shadow-2xl lg:bg-[#a3cb38] sm:bg-lime-200 mb-6 lg:mx-0 sm:mx-2" data-aos="fade-up">
   <figure>
     <img
       src={project1} className='w-96 h-60 p-4 rounded-3xl'
@@ -28,7 +28,7 @@ const Projects = () => {
     </div>
   </div>
 </div>
-        <div className="card w-96 shadow-2xl lg:bg-[#a3cb38] sm:bg-base-300 mb-6" data-aos="fade-left">
+        <div className="card lg:w-96 sm:w-80 shadow-2xl lg:bg-[#a3cb38] sm:bg-lime-200 mb-6 lg:mx-0 sm:mx-2" data-aos="fade-left">
   <figure>
     <img
       src={project1} className='w-96 h-60 p-4 rounded-3xl'
@@ -50,7 +50,7 @@ const Projects = () => {
     </div>
   </div>
 </div>
-        <div className="card w-96 shadow-2xl lg:bg-[#a3cb38] sm:bg-base-300 mb-6" data-aos="fade-up">
+        <div className="card lg:w-96 sm:w-80 shadow-2xl lg:bg-[#a3cb38] sm:bg-lime-200 mb-6 lg:mx-0 sm:mx-2" data-aos="fade-up">
   <figure>
     <img
       src={project2} className='w-96 h-60 p-4 rounded-3xl'
